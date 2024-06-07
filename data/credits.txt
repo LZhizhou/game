@@ -1,0 +1,58 @@
+Gobber's Hoard
+
+A Game by Bathrobe Studios
+
+Jeff Cho
+- Executive Producer
+
+Conor Teasdale
+- Director
+- Lead Designer
+- Producer
+- Art Designer
+- Additional Art Assets
+- Animation
+- Programming
+
+Evan Doerksen
+- Lead Developer
+- Programming
+
+Mateo Paez
+- Github Management and Web Deployment
+- Programming
+
+Ritwik Rastogi
+- Producer
+- Github Management and Web Deployment
+- Programming
+
+Sarang Kshirsagar
+- Main Menu Art
+
+Base Tilesets Modified:
+- https://o-lobster.itch.io/simple-dungeon-crawler-16x16-pixel-pack
+- https://opengameart.org/content/gold-treasure-icons
+- https://vryell.itch.io/tiny-adventure-pack-plus
+
+Music Used:
+- TechnoAXE's Royalty Free Music 
+- All Time High Jump - 8 Bit/Chiptune - Royalty Free Music
+- Treacherous Gators - Eight Bit/Chiptune - Royalty Free Music
+- Frog Suit Power Up - Chiptune/8-bit - Royalty Free Music
+- Hero Dance Party - Chiptune/8-bit - Royalty Free Music
+
+Sound Effects:
+- www.kenney.nl
+
+Special Thanks To:
+- Dr. Nathan Sturtevant
+- CMPUT 250 TAs
+- RPG Maker MV
+- CaptainNuggins (Hope you're well, Jen!)
+- Anime Gobber
+- Blobber
+- Conor's Incredibly Patient Wife
+- Evan's Pepsi Addiction
+
+- And you, for playing! Thank you!

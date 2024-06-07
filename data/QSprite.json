@@ -1,0 +1,3083 @@
+{
+  "Gobber": {
+    "name": "Gobber",
+    "cols": 24,
+    "rows": 8,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "sampleImg": "D:\\Games\\CMPUT 250\\Gobber's Hoard\\TestBuild\\CurrentBuild\\img\\characters\\!Gobber-gobber_sheet.png",
+    "poses": {
+      "idle1": {
+        "name": "idle1",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ]
+      },
+      "idle2": {
+        "name": "idle2",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "idle3": {
+        "name": "idle3",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          96,
+          97,
+          98,
+          99,
+          100,
+          101
+        ]
+      },
+      "idle4": {
+        "name": "idle4",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ]
+      },
+      "idle6": {
+        "name": "idle6",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          48,
+          49,
+          50,
+          51,
+          52,
+          53
+        ]
+      },
+      "idle7": {
+        "name": "idle7",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ]
+      },
+      "idle8": {
+        "name": "idle8",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          72,
+          73,
+          74,
+          75,
+          76,
+          77
+        ]
+      },
+      "idle9": {
+        "name": "idle9",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          144,
+          145,
+          146,
+          147,
+          148,
+          149
+        ]
+      },
+      "move1": {
+        "name": "move1",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          35,
+          34,
+          33,
+          32,
+          31,
+          30
+        ]
+      },
+      "move2": {
+        "name": "move2",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "move3": {
+        "name": "move3",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          102,
+          103,
+          104,
+          105,
+          106,
+          107
+        ]
+      },
+      "move4": {
+        "name": "move4",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          35,
+          34,
+          33,
+          32,
+          31,
+          30
+        ]
+      },
+      "move6": {
+        "name": "move6",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          54,
+          55,
+          56,
+          57,
+          58,
+          59
+        ]
+      },
+      "move7": {
+        "name": "move7",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          35,
+          34,
+          33,
+          32,
+          31,
+          30
+        ]
+      },
+      "move8": {
+        "name": "move8",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          78,
+          79,
+          80,
+          81,
+          82,
+          83
+        ]
+      },
+      "move9": {
+        "name": "move9",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          150,
+          151,
+          152,
+          153,
+          154,
+          155
+        ]
+      },
+      "kill1": {
+        "name": "kill1",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          47,
+          46,
+          45,
+          44,
+          43,
+          42
+        ]
+      },
+      "kill2": {
+        "name": "kill2",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          47,
+          46,
+          45,
+          44,
+          43,
+          42
+        ]
+      },
+      "kill3": {
+        "name": "kill3",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ]
+      },
+      "kill4": {
+        "name": "kill4",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          47,
+          46,
+          45,
+          44,
+          43,
+          42
+        ]
+      },
+      "kill6": {
+        "name": "kill6",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ]
+      },
+      "kill7": {
+        "name": "kill7",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          47,
+          46,
+          45,
+          44,
+          43,
+          42
+        ]
+      },
+      "kill8": {
+        "name": "kill8",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ]
+      },
+      "kill9": {
+        "name": "kill9",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ]
+      },
+      "wide1": {
+        "name": "wide1",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          36,
+          37,
+          38,
+          39,
+          40,
+          41
+        ]
+      },
+      "wide2": {
+        "name": "wide2",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      },
+      "wide3": {
+        "name": "wide3",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          60,
+          61,
+          62,
+          63,
+          64,
+          65
+        ]
+      },
+      "wide4": {
+        "name": "wide4",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          36,
+          37,
+          38,
+          39,
+          40,
+          41
+        ]
+      },
+      "wide6": {
+        "name": "wide6",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          60,
+          61,
+          62,
+          63,
+          64,
+          65
+        ]
+      },
+      "wide7": {
+        "name": "wide7",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          36,
+          37,
+          38,
+          39,
+          40,
+          41
+        ]
+      },
+      "wide8": {
+        "name": "wide8",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          84,
+          85,
+          86,
+          87,
+          88,
+          89
+        ]
+      },
+      "wide9": {
+        "name": "wide9",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          84,
+          85,
+          86,
+          87,
+          88,
+          89
+        ]
+      }
+    }
+  },
+  "Guard": {
+    "name": "Guard",
+    "cols": 24,
+    "rows": 8,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "sampleImg": "D:\\Games\\CMPUT 250\\Gobber's Hoard\\TestBuild\\CurrentBuild\\img\\characters\\!Guard-guard_sheet.png",
+    "poses": {
+      "idle1": {
+        "name": "idle1",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ]
+      },
+      "idle2": {
+        "name": "idle2",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "idle3": {
+        "name": "idle3",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          96,
+          97,
+          98,
+          99,
+          100,
+          101
+        ]
+      },
+      "idle4": {
+        "name": "idle4",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ]
+      },
+      "idle6": {
+        "name": "idle6",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          48,
+          49,
+          50,
+          51,
+          52,
+          53
+        ]
+      },
+      "idle7": {
+        "name": "idle7",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ]
+      },
+      "idle8": {
+        "name": "idle8",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          72,
+          73,
+          74,
+          75,
+          76,
+          77
+        ]
+      },
+      "idle9": {
+        "name": "idle9",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          144,
+          145,
+          146,
+          147,
+          148,
+          149
+        ]
+      },
+      "move1": {
+        "name": "move1",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          35,
+          34,
+          33,
+          32,
+          31,
+          30
+        ]
+      },
+      "move2": {
+        "name": "move2",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "move3": {
+        "name": "move3",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          102,
+          103,
+          104,
+          105,
+          106,
+          107
+        ]
+      },
+      "move4": {
+        "name": "move4",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          35,
+          34,
+          33,
+          32,
+          31,
+          30
+        ]
+      },
+      "move6": {
+        "name": "move6",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          54,
+          55,
+          56,
+          57,
+          58,
+          59
+        ]
+      },
+      "move7": {
+        "name": "move7",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          35,
+          34,
+          33,
+          32,
+          31,
+          30
+        ]
+      },
+      "move8": {
+        "name": "move8",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          78,
+          79,
+          80,
+          81,
+          82,
+          83
+        ]
+      },
+      "move9": {
+        "name": "move9",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          150,
+          151,
+          152,
+          153,
+          154,
+          155
+        ]
+      },
+      "atk1": {
+        "name": "atk1",
+        "speed": 5,
+        "adjust": false,
+        "pattern": [
+          42,
+          43,
+          44,
+          45,
+          46,
+          47
+        ]
+      },
+      "atk2": {
+        "name": "atk2",
+        "speed": 5,
+        "adjust": false,
+        "pattern": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ]
+      },
+      "atk3": {
+        "name": "atk3",
+        "speed": 5,
+        "adjust": false,
+        "pattern": [
+          66,
+          67,
+          68,
+          69,
+          70,
+          71
+        ]
+      },
+      "atk4": {
+        "name": "atk4",
+        "speed": 5,
+        "adjust": false,
+        "pattern": [
+          42,
+          43,
+          44,
+          45,
+          46,
+          47
+        ]
+      },
+      "atk6": {
+        "name": "atk6",
+        "speed": 5,
+        "adjust": false,
+        "pattern": [
+          66,
+          67,
+          68,
+          69,
+          70,
+          71
+        ]
+      },
+      "atk7": {
+        "name": "atk7",
+        "speed": 5,
+        "adjust": false,
+        "pattern": [
+          42,
+          43,
+          44,
+          45,
+          46,
+          47
+        ]
+      },
+      "atk8": {
+        "name": "atk8",
+        "speed": 5,
+        "adjust": false,
+        "pattern": [
+          90,
+          91,
+          92,
+          93,
+          94,
+          95
+        ]
+      },
+      "atk9": {
+        "name": "atk9",
+        "speed": 5,
+        "adjust": false,
+        "pattern": [
+          66,
+          67,
+          68,
+          69,
+          70,
+          71
+        ]
+      },
+      "stun1": {
+        "name": "stun1",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          36,
+          37,
+          38,
+          39,
+          40,
+          41
+        ]
+      },
+      "stun2": {
+        "name": "stun2",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      },
+      "stun3": {
+        "name": "stun3",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          60,
+          61,
+          62,
+          63,
+          64,
+          65
+        ]
+      },
+      "stun4": {
+        "name": "stun4",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          36,
+          37,
+          38,
+          39,
+          40,
+          41
+        ]
+      },
+      "stun6": {
+        "name": "stun6",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          60,
+          61,
+          62,
+          63,
+          64,
+          65
+        ]
+      },
+      "stun7": {
+        "name": "stun7",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          36,
+          37,
+          38,
+          39,
+          40,
+          41
+        ]
+      },
+      "stun8": {
+        "name": "stun8",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          84,
+          85,
+          86,
+          87,
+          88,
+          89
+        ]
+      },
+      "stun9": {
+        "name": "stun9",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          60,
+          61,
+          62,
+          63,
+          64,
+          65
+        ]
+      }
+    }
+  },
+  "Shiny_Chest": {
+    "name": "Shiny_Chest",
+    "cols": 12,
+    "rows": 8,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "sampleImg": "D:\\Games\\CMPUT 250\\Gobber's Hoard\\CurrentBuild\\img\\characters\\!Shiny_Chest.png",
+    "poses": {
+      "idle2": {
+        "name": "idle2",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "idle8": {
+        "name": "idle8",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          8,
+          8,
+          8
+        ]
+      }
+    }
+  },
+  "Torch": {
+    "name": "Torch",
+    "cols": 24,
+    "rows": 8,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "sampleImg": "D:\\Games\\CMPUT 250\\Gobber's Hoard\\CurrentBuild\\img\\characters\\!Torch-flicker.png",
+    "poses": {
+      "idle2": {
+        "name": "idle2",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    }
+  },
+  "Key": {
+    "name": "Key",
+    "cols": 24,
+    "rows": 8,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "sampleImg": "D:\\Games\\CMPUT 250\\Gobber's Hoard\\CurrentBuild\\img\\characters\\!Key-float.png",
+    "poses": {
+      "idle2": {
+        "name": "idle2",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    }
+  },
+  "Door": {
+    "name": "Door",
+    "cols": 24,
+    "rows": 8,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "sampleImg": "D:\\Games\\CMPUT 250\\Gobber's Hoard\\TestBuild\\CurrentBuild\\img\\characters\\!Door-locked.png",
+    "poses": {
+      "idle2": {
+        "name": "idle2",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "unlock": {
+        "name": "unlock",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38
+        ]
+      },
+      "shut": {
+        "name": "shut",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          57,
+          56,
+          55,
+          54,
+          53,
+          52,
+          51,
+          50,
+          49,
+          48
+        ]
+      },
+      "idle6": {
+        "name": "idle6",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          48
+        ]
+      }
+    }
+  },
+  "Sword": {
+    "name": "Sword",
+    "cols": 24,
+    "rows": 8,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "sampleImg": "D:\\Games\\CMPUT 250\\Gobber's Hoard\\CurrentBuild\\img\\characters\\!Sword-swing.png",
+    "poses": {
+      "swing": {
+        "name": "swing",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    }
+  },
+  "GobPipe": {
+    "name": "GobPipe",
+    "cols": 3,
+    "rows": 2,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "sampleImg": "D:\\Games\\CMPUT 250\\Gobber's Hoard\\TestBuild\\CurrentBuild\\img\\characters\\!GobPipe-sheet.png",
+    "poses": {
+      "move2": {
+        "name": "move2",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          0,
+          1,
+          2,
+          0,
+          1,
+          2
+        ]
+      },
+      "move4": {
+        "name": "move4",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          3,
+          4,
+          5,
+          3,
+          4,
+          5
+        ]
+      },
+      "move6": {
+        "name": "move6",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          3,
+          4,
+          5,
+          3,
+          4,
+          5
+        ]
+      },
+      "move8": {
+        "name": "move8",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          0,
+          1,
+          2,
+          0,
+          1,
+          2
+        ]
+      }
+    }
+  },
+  "Items2": {
+    "name": "Items2",
+    "cols": 12,
+    "rows": 8,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "sampleImg": "D:\\Games\\CMPUT 250\\Gobber's Hoard\\TestBuild\\CurrentBuild\\img\\characters\\!Items2-.png",
+    "poses": {
+      "idle2": {
+        "name": "idle2",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55
+        ]
+      },
+      "idle3": {
+        "name": "idle3",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          0,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "idle4": {
+        "name": "idle4",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          12,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ]
+      },
+      "idle6": {
+        "name": "idle6",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31
+        ]
+      },
+      "idle8": {
+        "name": "idle8",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43
+        ]
+      }
+    }
+  },
+  "Bottle": {
+    "name": "Bottle",
+    "cols": 12,
+    "rows": 8,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "sampleImg": "D:\\Games\\CMPUT 250\\Gobber's Hoard\\TestBuild\\CurrentBuild\\img\\characters\\!Bottle-break.png",
+    "poses": {
+      "idle2": {
+        "name": "idle2",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "stun2": {
+        "name": "stun2",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          12,
+          13,
+          14,
+          14
+        ]
+      },
+      "idle4": {
+        "name": "idle4",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          14,
+          14,
+          14,
+          14
+        ]
+      }
+    }
+  },
+  "FakeGobber": {
+    "name": "FakeGobber",
+    "cols": 24,
+    "rows": 8,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "sampleImg": "D:\\Games\\CMPUT 250\\Gobber's Hoard\\TestBuild\\CurrentBuild\\img\\characters\\!FakeGobber-sheet.png",
+    "poses": {
+      "idle1": {
+        "name": "idle1",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ]
+      },
+      "idle2": {
+        "name": "idle2",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "idle3": {
+        "name": "idle3",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          96,
+          97,
+          98,
+          99,
+          100,
+          101
+        ]
+      },
+      "idle4": {
+        "name": "idle4",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ]
+      },
+      "idle6": {
+        "name": "idle6",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          48,
+          49,
+          50,
+          51,
+          52,
+          53
+        ]
+      },
+      "idle7": {
+        "name": "idle7",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ]
+      },
+      "idle8": {
+        "name": "idle8",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          72,
+          73,
+          74,
+          75,
+          76,
+          77
+        ]
+      },
+      "idle9": {
+        "name": "idle9",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          144,
+          145,
+          146,
+          147,
+          148,
+          149
+        ]
+      },
+      "move1": {
+        "name": "move1",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          35,
+          34,
+          33,
+          32,
+          31,
+          30
+        ]
+      },
+      "move2": {
+        "name": "move2",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "move3": {
+        "name": "move3",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          102,
+          103,
+          104,
+          105,
+          106,
+          107
+        ]
+      },
+      "move4": {
+        "name": "move4",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          35,
+          34,
+          33,
+          32,
+          31,
+          30
+        ]
+      },
+      "move6": {
+        "name": "move6",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          54,
+          55,
+          56,
+          57,
+          58,
+          59
+        ]
+      },
+      "move7": {
+        "name": "move7",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          35,
+          34,
+          33,
+          32,
+          31,
+          30
+        ]
+      },
+      "move8": {
+        "name": "move8",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          78,
+          79,
+          80,
+          81,
+          82,
+          83
+        ]
+      },
+      "move9": {
+        "name": "move9",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          150,
+          151,
+          152,
+          153,
+          154,
+          155
+        ]
+      }
+    }
+  },
+  "Golem1": {
+    "name": "Golem1",
+    "cols": 24,
+    "rows": 8,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "sampleImg": "D:\\Games\\CMPUT 250\\Gobber's Hoard\\TestBuild\\CurrentBuild\\img\\characters\\!Golem1-sleep.png",
+    "poses": {
+      "idle2": {
+        "name": "idle2",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          1
+        ]
+      },
+      "idle6": {
+        "name": "idle6",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          49
+        ]
+      },
+      "idle4": {
+        "name": "idle4",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          25
+        ]
+      },
+      "idle8": {
+        "name": "idle8",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          73
+        ]
+      }
+    }
+  },
+  "Door2": {
+    "name": "Door2",
+    "cols": 24,
+    "rows": 8,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "sampleImg": "D:\\Games\\CMPUT 250\\Gobber's Hoard\\TestBuild\\CurrentBuild\\img\\characters\\!Door2-locked.png",
+    "poses": {
+      "idle2": {
+        "name": "idle2",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "unlock": {
+        "name": "unlock",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38
+        ]
+      },
+      "shut": {
+        "name": "shut",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          57,
+          56,
+          55,
+          54,
+          53,
+          52,
+          51,
+          50,
+          49,
+          48
+        ]
+      },
+      "idle6": {
+        "name": "idle6",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          48
+        ]
+      }
+    }
+  },
+  "Twinkle": {
+    "name": "Twinkle",
+    "cols": 12,
+    "rows": 8,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "sampleImg": "D:\\Games\\CMPUT 250\\Gobber's Hoard\\TestBuild\\CurrentBuild\\img\\characters\\!Twinkle-.png",
+    "poses": {
+      "idle2": {
+        "name": "idle2",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55
+        ]
+      },
+      "idle3": {
+        "name": "idle3",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          0,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "idle4": {
+        "name": "idle4",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          12,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ]
+      },
+      "idle6": {
+        "name": "idle6",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31
+        ]
+      },
+      "idle8": {
+        "name": "idle8",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44
+        ]
+      }
+    }
+  },
+  "Golem2": {
+    "name": "Golem2",
+    "cols": 24,
+    "rows": 8,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "sampleImg": "D:\\Games\\CMPUT 250\\Gobber's Hoard\\TestBuild\\CurrentBuild\\img\\characters\\!Golem2-awake.png",
+    "poses": {
+      "idle1": {
+        "name": "idle1",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ]
+      },
+      "idle2": {
+        "name": "idle2",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "idle3": {
+        "name": "idle3",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          96,
+          97,
+          98,
+          99,
+          100,
+          101
+        ]
+      },
+      "idle4": {
+        "name": "idle4",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ]
+      },
+      "idle6": {
+        "name": "idle6",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          48,
+          49,
+          50,
+          51,
+          52,
+          53
+        ]
+      },
+      "idle7": {
+        "name": "idle7",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ]
+      },
+      "idle8": {
+        "name": "idle8",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          72,
+          73,
+          74,
+          75,
+          76,
+          77
+        ]
+      },
+      "idle9": {
+        "name": "idle9",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          144,
+          145,
+          146,
+          147,
+          148,
+          149
+        ]
+      },
+      "move1": {
+        "name": "move1",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          35,
+          34,
+          33,
+          32,
+          31,
+          30
+        ]
+      },
+      "move2": {
+        "name": "move2",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "move3": {
+        "name": "move3",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          102,
+          103,
+          104,
+          105,
+          106,
+          107
+        ]
+      },
+      "move4": {
+        "name": "move4",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          35,
+          34,
+          33,
+          32,
+          31,
+          30
+        ]
+      },
+      "move6": {
+        "name": "move6",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          54,
+          55,
+          56,
+          57,
+          58,
+          59
+        ]
+      },
+      "move7": {
+        "name": "move7",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          35,
+          34,
+          33,
+          32,
+          31,
+          30
+        ]
+      },
+      "move8": {
+        "name": "move8",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          78,
+          79,
+          80,
+          81,
+          82,
+          83
+        ]
+      },
+      "move9": {
+        "name": "move9",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          150,
+          151,
+          152,
+          153,
+          154,
+          155
+        ]
+      },
+      "atk1": {
+        "name": "atk1",
+        "speed": 5,
+        "adjust": false,
+        "pattern": [
+          42,
+          43,
+          44,
+          45,
+          46,
+          47
+        ]
+      },
+      "atk2": {
+        "name": "atk2",
+        "speed": 5,
+        "adjust": false,
+        "pattern": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ]
+      },
+      "atk3": {
+        "name": "atk3",
+        "speed": 5,
+        "adjust": false,
+        "pattern": [
+          66,
+          67,
+          68,
+          69,
+          70,
+          71
+        ]
+      },
+      "atk4": {
+        "name": "atk4",
+        "speed": 5,
+        "adjust": false,
+        "pattern": [
+          42,
+          43,
+          44,
+          45,
+          46,
+          47
+        ]
+      },
+      "atk6": {
+        "name": "atk6",
+        "speed": 5,
+        "adjust": false,
+        "pattern": [
+          66,
+          67,
+          68,
+          69,
+          70,
+          71
+        ]
+      },
+      "atk7": {
+        "name": "atk7",
+        "speed": 5,
+        "adjust": false,
+        "pattern": [
+          42,
+          43,
+          44,
+          45,
+          46,
+          47
+        ]
+      },
+      "atk8": {
+        "name": "atk8",
+        "speed": 5,
+        "adjust": false,
+        "pattern": [
+          90,
+          91,
+          92,
+          93,
+          94,
+          95
+        ]
+      },
+      "atk9": {
+        "name": "atk9",
+        "speed": 5,
+        "adjust": false,
+        "pattern": [
+          66,
+          67,
+          68,
+          69,
+          70,
+          71
+        ]
+      },
+      "stun1": {
+        "name": "stun1",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          36,
+          37,
+          38,
+          39,
+          40,
+          41
+        ]
+      },
+      "stun2": {
+        "name": "stun2",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      },
+      "stun3": {
+        "name": "stun3",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          60,
+          61,
+          62,
+          63,
+          64,
+          65
+        ]
+      },
+      "stun4": {
+        "name": "stun4",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          36,
+          37,
+          38,
+          39,
+          40,
+          41
+        ]
+      },
+      "stun6": {
+        "name": "stun6",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          60,
+          61,
+          62,
+          63,
+          64,
+          65
+        ]
+      },
+      "stun7": {
+        "name": "stun7",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          36,
+          37,
+          38,
+          39,
+          40,
+          41
+        ]
+      },
+      "stun8": {
+        "name": "stun8",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          84,
+          85,
+          86,
+          87,
+          88,
+          89
+        ]
+      },
+      "stun9": {
+        "name": "stun9",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          60,
+          61,
+          62,
+          63,
+          64,
+          65
+        ]
+      }
+    }
+  },
+  "Boom": {
+    "name": "Boom",
+    "cols": 12,
+    "rows": 8,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "sampleImg": "D:\\Games\\CMPUT 250\\Gobber's Hoard\\TestBuild\\CurrentBuild\\img\\characters\\!Boom-.png",
+    "poses": {
+      "idle2": {
+        "name": "idle2",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          0
+        ]
+      },
+      "idle4": {
+        "name": "idle4",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          12
+        ]
+      },
+      "idle6": {
+        "name": "idle6",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          24
+        ]
+      },
+      "idle8": {
+        "name": "idle8",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          36
+        ]
+      },
+      "boom2": {
+        "name": "boom2",
+        "speed": 5,
+        "adjust": false,
+        "pattern": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          6,
+          7
+        ]
+      },
+      "boom4": {
+        "name": "boom4",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ]
+      },
+      "boom6": {
+        "name": "boom6",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ]
+      },
+      "boom8": {
+        "name": "boom8",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42
+        ]
+      }
+    }
+  },
+  "Gobber_Key": {
+    "name": "Gobber_Key",
+    "cols": 24,
+    "rows": 8,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "sampleImg": "D:\\Games\\CMPUT 250\\Gobber's Hoard\\TestBuild\\CurrentBuild\\img\\characters\\!Gobber_Key-gobber_sheet.png",
+    "poses": {
+      "idle1": {
+        "name": "idle1",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ]
+      },
+      "idle2": {
+        "name": "idle2",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "idle3": {
+        "name": "idle3",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          96,
+          97,
+          98,
+          99,
+          100,
+          101
+        ]
+      },
+      "idle4": {
+        "name": "idle4",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ]
+      },
+      "idle6": {
+        "name": "idle6",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          48,
+          49,
+          50,
+          51,
+          52,
+          53
+        ]
+      },
+      "idle7": {
+        "name": "idle7",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ]
+      },
+      "idle8": {
+        "name": "idle8",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          72,
+          73,
+          74,
+          75,
+          76,
+          77
+        ]
+      },
+      "idle9": {
+        "name": "idle9",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          144,
+          145,
+          146,
+          147,
+          148,
+          149
+        ]
+      },
+      "move1": {
+        "name": "move1",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          35,
+          34,
+          33,
+          32,
+          31,
+          30
+        ]
+      },
+      "move2": {
+        "name": "move2",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "move3": {
+        "name": "move3",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          102,
+          103,
+          104,
+          105,
+          106,
+          107
+        ]
+      },
+      "move4": {
+        "name": "move4",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          35,
+          34,
+          33,
+          32,
+          31,
+          30
+        ]
+      },
+      "move6": {
+        "name": "move6",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          54,
+          55,
+          56,
+          57,
+          58,
+          59
+        ]
+      },
+      "move7": {
+        "name": "move7",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          35,
+          34,
+          33,
+          32,
+          31,
+          30
+        ]
+      },
+      "move8": {
+        "name": "move8",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          78,
+          79,
+          80,
+          81,
+          82,
+          83
+        ]
+      },
+      "move9": {
+        "name": "move9",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          150,
+          151,
+          152,
+          153,
+          154,
+          155
+        ]
+      },
+      "kill1": {
+        "name": "kill1",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          47,
+          46,
+          45,
+          44,
+          43,
+          42
+        ]
+      },
+      "kill2": {
+        "name": "kill2",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          47,
+          46,
+          45,
+          44,
+          43,
+          42
+        ]
+      },
+      "kill3": {
+        "name": "kill3",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ]
+      },
+      "kill4": {
+        "name": "kill4",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          47,
+          46,
+          45,
+          44,
+          43,
+          42
+        ]
+      },
+      "kill6": {
+        "name": "kill6",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ]
+      },
+      "kill7": {
+        "name": "kill7",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          47,
+          46,
+          45,
+          44,
+          43,
+          42
+        ]
+      },
+      "kill8": {
+        "name": "kill8",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ]
+      },
+      "kill9": {
+        "name": "kill9",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ]
+      }
+    }
+  },
+  "Gobber_Sack": {
+    "name": "Gobber_Sack",
+    "cols": 24,
+    "rows": 8,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "sampleImg": "D:\\Games\\CMPUT 250\\Gobber's Hoard\\TestBuild\\CurrentBuild\\img\\characters\\!Gobber_Sack-gobber_sheet.png",
+    "poses": {
+      "idle1": {
+        "name": "idle1",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ]
+      },
+      "idle2": {
+        "name": "idle2",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "idle3": {
+        "name": "idle3",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          48,
+          49,
+          50,
+          51,
+          52,
+          53
+        ]
+      },
+      "idle4": {
+        "name": "idle4",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ]
+      },
+      "idle6": {
+        "name": "idle6",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          48,
+          49,
+          50,
+          51,
+          52,
+          53
+        ]
+      },
+      "idle7": {
+        "name": "idle7",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ]
+      },
+      "idle8": {
+        "name": "idle8",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          72,
+          73,
+          74,
+          75,
+          76,
+          77
+        ]
+      },
+      "idle9": {
+        "name": "idle9",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          48,
+          49,
+          50,
+          51,
+          52,
+          53
+        ]
+      },
+      "move1": {
+        "name": "move1",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          35,
+          34,
+          33,
+          32,
+          31,
+          30
+        ]
+      },
+      "move2": {
+        "name": "move2",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "move3": {
+        "name": "move3",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          54,
+          55,
+          56,
+          57,
+          58,
+          59
+        ]
+      },
+      "move4": {
+        "name": "move4",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          35,
+          34,
+          33,
+          32,
+          31,
+          30
+        ]
+      },
+      "move6": {
+        "name": "move6",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          54,
+          55,
+          56,
+          57,
+          58,
+          59
+        ]
+      },
+      "move7": {
+        "name": "move7",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          35,
+          34,
+          33,
+          32,
+          31,
+          30
+        ]
+      },
+      "move8": {
+        "name": "move8",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          78,
+          79,
+          80,
+          81,
+          82,
+          83
+        ]
+      },
+      "move9": {
+        "name": "move9",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          54,
+          55,
+          56,
+          57,
+          58,
+          59
+        ]
+      },
+      "wide6": {
+        "name": "wide6",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          186,
+          187,
+          188,
+          189,
+          190,
+          191
+        ]
+      },
+      "kill1": {
+        "name": "kill1",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          47,
+          46,
+          45,
+          44,
+          43,
+          42
+        ]
+      },
+      "kill2": {
+        "name": "kill2",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          47,
+          46,
+          45,
+          44,
+          43,
+          42
+        ]
+      },
+      "kill3": {
+        "name": "kill3",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ]
+      },
+      "kill4": {
+        "name": "kill4",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          47,
+          46,
+          45,
+          44,
+          43,
+          42
+        ]
+      },
+      "kill6": {
+        "name": "kill6",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ]
+      },
+      "kill7": {
+        "name": "kill7",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          47,
+          46,
+          45,
+          44,
+          43,
+          42
+        ]
+      },
+      "kill8": {
+        "name": "kill8",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ]
+      },
+      "kill9": {
+        "name": "kill9",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ]
+      },
+      "fall": {
+        "name": "fall",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          66,
+          91,
+          68,
+          93,
+          90,
+          67,
+          92,
+          69
+        ]
+      },
+      "frantic": {
+        "name": "frantic",
+        "speed": 3,
+        "adjust": false,
+        "pattern": [
+          114,
+          115,
+          116,
+          117,
+          118,
+          119
+        ]
+      },
+      "run": {
+        "name": "run",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          114,
+          115,
+          116,
+          117,
+          118,
+          119
+        ]
+      },
+      "land": {
+        "name": "land",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          66,
+          21,
+          22,
+          23
+        ]
+      },
+      "jump": {
+        "name": "jump",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          54,
+          56,
+          55,
+          48,
+          48
+        ]
+      }
+    }
+  },
+  "Glass": {
+    "name": "Glass",
+    "cols": 12,
+    "rows": 8,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "sampleImg": "D:\\Games\\CMPUT 250\\Gobber's Hoard\\TestBuild\\CurrentBuild\\img\\characters\\!Glass-.png",
+    "poses": {
+      "idle2": {
+        "name": "idle2",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          0
+        ]
+      },
+      "idle3": {
+        "name": "idle3",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          14
+        ]
+      },
+      "idle4": {
+        "name": "idle4",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          1
+        ]
+      },
+      "idle6": {
+        "name": "idle6",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          2
+        ]
+      },
+      "idle8": {
+        "name": "idle8",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          12
+        ]
+      },
+      "idle9": {
+        "name": "idle9",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          13
+        ]
+      },
+      "shatter2": {
+        "name": "shatter2",
+        "speed": 8,
+        "adjust": false,
+        "pattern": [
+          0,
+          3,
+          3,
+          6,
+          6,
+          9
+        ]
+      },
+      "shatter4": {
+        "name": "shatter4",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          1,
+          4,
+          4,
+          7,
+          7,
+          10
+        ]
+      },
+      "shatter6": {
+        "name": "shatter6",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          2,
+          5,
+          5,
+          8,
+          8,
+          11
+        ]
+      },
+      "shatter8": {
+        "name": "shatter8",
+        "speed": 8,
+        "adjust": false,
+        "pattern": [
+          12,
+          15,
+          15,
+          18,
+          18,
+          21,
+          21
+        ]
+      },
+      "shatter9": {
+        "name": "shatter9",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          13,
+          16,
+          16,
+          19,
+          19,
+          22,
+          22
+        ]
+      },
+      "shatter3": {
+        "name": "shatter3",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          14,
+          17,
+          17,
+          20,
+          20,
+          23,
+          23
+        ]
+      },
+      "crack2": {
+        "name": "crack2",
+        "speed": 8,
+        "adjust": false,
+        "pattern": [
+          0,
+          3,
+          3,
+          9
+        ]
+      },
+      "crack4": {
+        "name": "crack4",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          1,
+          4,
+          4,
+          ""
+        ]
+      },
+      "crack6": {
+        "name": "crack6",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          2,
+          5,
+          5
+        ]
+      },
+      "crack8": {
+        "name": "crack8",
+        "speed": 8,
+        "adjust": false,
+        "pattern": [
+          12,
+          15,
+          15
+        ]
+      },
+      "crack9": {
+        "name": "crack9",
+        "speed": 6,
+        "adjust": false,
+        "pattern": [
+          13,
+          16,
+          16
+        ]
+      },
+      "crack3": {
+        "name": "crack3",
+        "speed": 7,
+        "adjust": false,
+        "pattern": [
+          14,
+          17,
+          17
+        ]
+      }
+    }
+  }
+}
